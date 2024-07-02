@@ -56,6 +56,15 @@ body {
     float: right;
     position: relative;
     color: #000000; 
+
+}
+
+.quote-box span::before {
+    content: '';
+    position:absolute;
+    width: 20px;
+    height: 2px;
+    background: rgb(23, 124, 229);
 }
 
 .quote-box div {
@@ -77,9 +86,21 @@ body {
     align-items: center;
     margin: 5px;
     cursor: pointer;
+    position: relative;
 }
 
 .quote-box button:hover {
-    background: #1e7bce; 
-    border-color: #1e7bce; 
+    background: #1675c8;  
+
+}
+
+.quote-box button img {
+  width: 20px;
+  margin-right: 10px;
+  margin-top: 10p;
+}
+
+.quote-box button:nth-child(2) {
+    background:rgb(10, 83, 93);
+    color: #060606;
 }
