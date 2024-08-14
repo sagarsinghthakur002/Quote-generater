@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #44aed2; 
+    background-color: #25c2f7; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@ body {
 }
 
 .quote-box {
-    background: #fdfdfd; 
+    background: #0675f3; 
     width: 100%;
     max-width: 700px;
     padding: 40px;
@@ -39,20 +39,17 @@ body {
     border-radius: 3px;
     margin: 10px auto 0;
 }
-
 .quote-box blockquote {
     font-size: 20px;
     min-height: 110px;
     color: #000; 
     margin: 20px 0;
 }
-
 .quote-box span {
     display: block;
     margin-top: 10px;
     color: #000; 
 }
-
 .quote-box .button-container {
     display: flex;
     justify-content: center;
@@ -60,9 +57,8 @@ body {
     margin-top: 20px;
     flex-wrap: wrap;
 }
-
 .quote-box button {
-    background: rgb(23, 124, 229); 
+    background: rgb(0, 44, 92); 
     color: #fff; 
     border-radius: 25px;
     border: none;
